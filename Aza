@@ -1,5 +1,112 @@
 still.css
 
+/* Sayfanın genel arka planı */
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+/* Beyaz kutunun (kartın) tasarımı */
+.kart {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Butonun tasarımı */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Arka planı yumuşak bir gri yapalım ve içeriği ortalayalım */
+body {
+  background-color: #eef2f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Beyaz kart tasarımı */
+.kart {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+/* Başlık rengi */
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Buton tasarımı */
+button {
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Mouse ile üzerine gelince butonun parlaması için */
+button:hover {
+  background-color: #ff6b81;
+  transform: scale(1.05);
+}
+
+
+/* Profil resminin stilini belirliyoruz */
+.profil-resmi {
+  width: 120px;       /* Resmin genişliği */
+  height: 120px;      /* Resmin yüksekliği */
+  border-radius: 50%; /* Resmi tam yuvarlak yapar */
+  object-fit: cover;  /* Resmin kutuya sığmasını ve bozulmamasını sağlar */
+  border: 4px solid #fff; /* Beyaz bir çerçeve ekler */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Hafif bir gölge */
+  margin-bottom: 20px; /* Alttaki başlıkla arasını açar */
+}
+
+.profil-resmi {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Kare resmi yuvarlak yapar */
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.profil-resmi {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007bff; /* Resmin etrafına mavi bir çerçeve ekler */
+}
+
+.insta-buton {
+  display: inline-block;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  color: white;
+  padding: 12px 25px;
   border-radius: 25px;
   text-decoration: none; /* Alt çizgiyi kaldırır */
   font-weight: bold;
@@ -30,13 +137,6 @@ body {
     padding: 20px;
   }
 }
-
-
-
-
-
-
-
 {
   content: 'CodePen ♥ The Web';
   position: fixed;
@@ -52,4 +152,9 @@ body {
   padding: 4px 8px;
   border-radius: 4px;
 }
+
+
+
+
+
 
