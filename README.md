@@ -1,4 +1,4 @@
-# -ndex.html
+index.html
 Özel tasarım 
 
 <!DOCTYPE html>
