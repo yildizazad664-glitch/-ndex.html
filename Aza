@@ -1,0 +1,28 @@
+still.css
+body {
+  background: linear-gradient(45deg, #f09433, #e6683c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.kart {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.insta-buton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #bc1888;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
