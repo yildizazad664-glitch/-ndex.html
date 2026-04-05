@@ -1,28 +1,55 @@
 still.css
+
+  border-radius: 25px;
+  text-decoration: none; /* Alt çizgiyi kaldırır */
+  font-weight: bold;
+  transition: 0.3s;
+  margin-top: 15px;
+}
+
+.insta-buton:hover {
+  transform: scale(1.1); /* Üzerine gelince biraz büyür */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
 body {
-  background: linear-gradient(45deg, #f09433, #e6683c);
+  /* Renkli ve yumuşak bir geçiş (Gradient) */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-.kart {
-  background: white;
-  padding: 30px;
-  border-radius: 15px;
-  text-align: center;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+@media (max-width: 600px) {
+  .kart {
+    width: 80%; /* Telefondan bakınca kart ekranı kaplasın */
+    padding: 20px;
+  }
 }
 
-.insta-buton {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background: #bc1888;
+
+
+
+
+
+
+{
+  content: 'CodePen ♥ The Web';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  font-family: monospace;
+  opacity: 0.6;
+  background: rebeccapurple;
   color: white;
-  text-decoration: none;
-  border-radius: 5px;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
+
